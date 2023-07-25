@@ -1,0 +1,11 @@
+h1{
+    /* font-family: 'Bungee Shade', cursive; */
+    font-family: 'Spectral', serif;
+}
+#profile{
+    text-align: center;
+}
+
+#pfp{
+    border-radius: 50%;
+}

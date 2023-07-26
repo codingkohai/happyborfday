@@ -18,6 +18,7 @@ h1 {
 }
 h2{
     font-size: 20px;
+    margin-bottom: -2px;
 }
 #pfp{
     border-radius: 50%;
@@ -27,7 +28,7 @@ h2{
 }
 
 .gift{
-    margin-top: 10px;
+    margin-top: 7px;
     color: #6d6875;
     font-family: 'Nunito', sans-serif;
     display: flex;
@@ -35,17 +36,95 @@ h2{
     flex-direction: column;
 }
 
-.giftCover {
-    width: 400px;
-    border: 3px solid white;
+ .gift-img-1 {
+    width: 350px;
+    height: 350px;
+    /* border: 3px solid white; */
+    background-image: url(present.png);
+    background-size: cover;
 }
 
-.gift-prompt{
-
+.prompt-1{
+    font-size: 26px;
+    margin-bottom: 2px;
 }
 
 
 .gift-hint{
     margin-top: 0px;
-    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.gift-img-1:hover {
+    margin-top: 78px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 22px;
+    /* background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.co%2Fimages%2Ffcf5177d22199e1235bbbb1a4cab7fe7%2Fraw&f=1&nofb=1&ipt=cba1a0bd0badd54e6b525e15d15300db03a4c2e53cbcaaee515e6348a0939d8d&ipo=images); */
+    background-image: url(https://media.tenor.com/MGgHPbbIKZkAAAAC/surprised-unsurprised.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* ---------------- GIFT 2 ------------------- */
+.prompt-2{
+    font-size: 26px;
+    margin-top: 90px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.gift-img-2 {
+    width: 350px;
+    height: 350px;
+    /* border: 3px solid white; */
+    background-image: url(present.png);
+    background-size: cover;
+}
+
+.gift-img-2:hover {
+    margin-top: 78px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 22px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.co%2Fimages%2Ffcf5177d22199e1235bbbb1a4cab7fe7%2Fraw&f=1&nofb=1&ipt=cba1a0bd0badd54e6b525e15d15300db03a4c2e53cbcaaee515e6348a0939d8d&ipo=images);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* --------------- GIFT 3 --------------------- */
+.prompt-3{
+    font-size: 26px;
+    margin-top: 90px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.gift-img-3 {
+    width: 350px;
+    height: 350px;
+    /* border: 3px solid white; */
+    background-image: url(present.png);
+    background-size: cover;
+}
+
+.gift-img-3:hover {
+    margin-top: 78px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 22px;
+    background-image: url(https://media.tenor.com/u97JCT-bu8sAAAAC/proud-cool.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+/* ----------------------------------------------------------- */
+#footer{
+    margin-top: 400px;
 }
